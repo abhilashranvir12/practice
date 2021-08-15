@@ -1,0 +1,10 @@
+1. print a table of 3 and 4 and append to HTML
+2. print a table of 5. If the value is divisable by 3 then print foo and append to HTML
+3. print a table of 5. If the value is divisable by 3 then add 3 in the result and append to HTML
+4. print odd numbers between 24 to 50 and append to HTML
+5. print odd and even numbers between 40 to 60 and append to HTML
+6. print numbers from 100 to 0 and append to HTML
+7. Write a function which will take a valid number and print the table of it. Append it to HTML
+8. write a function which will calculate the area of circle and rectangle
+9. write a function which will find the greatest number in a given array
+10. Writw a function that will take the value from the user and print the table of it
