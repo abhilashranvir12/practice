@@ -25,11 +25,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.card .top .userDetails {
+.card .top .user-details .name {
   display: flex;
   align-items: center;
+  padding-top: 10px;
 }
-.card .top .userDetails .profile_img {
+.card .top .user-details .profile-img {
   position: relative;
   width: 36px;
   height: 36px;
@@ -46,11 +47,12 @@ body {
   object-fit: cover;
 }
 
-.card .top .userDetails h3 {
+.card .top .user-details span {
   font-size: 15px;
   line-height: 1em;
+  display: block;
 }
-.card .top .userDetails h3 span {
+.card .top .user-details span {
   font-size: 12px;
 }
 .dot {
@@ -73,17 +75,18 @@ body {
   align-items: center;
 }
 
-.btn img {
+.btn i {
   max-width: 24px;
   cursor: pointer;
 }
 
-.btn .left img {
+.btn .left i {
   margin-right: 8px;
 }
 .likes {
   font-size: 12px;
   margin-top: 5px;
+  display: block;
 }
 .message {
   font-weight: 400;
@@ -93,12 +96,12 @@ body {
 .comments {
   margin-top: 10px;
 }
-.addComments {
+.add-comments {
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
-.addComments .userImg {
+.add-comments .user-img {
   position: relative;
   min-width: 30px;
   height: 30px;
@@ -113,6 +116,6 @@ body {
   font-size: 16px;
 }
 
-.postTime {
+.post-time {
   margin-top: 10px;
 }

@@ -3,6 +3,13 @@
   <head>
     <title>Instagram Post card desiign practice</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="card">
@@ -11,11 +18,11 @@
           <div class="profile-img">
             <img src="images/logo.jpg" alt="logo" class="cover" />
           </div>
-          <span> abhilash ranvir </span>
-          <span>Bangalore,India</span>
+          <span class="name"> abhilash ranvir </span>
+          <span class="place">Bangalore,India</span>
         </div>
         <div>
-          <img src="images/dot.png" class="dot" />
+          <i class="fas fa-ellipsis-v" class="dot"></i>
         </div>
       </div>
       <!-- main image section -->
@@ -25,31 +32,26 @@
       <!-- buttons -->
       <div class="btn">
         <div class="left">
-          <img
-            src="images/heart.png"
-            alt="heart"
-            class="heart"
-            onclick="likeButton()"
-          />
-          <img src="images/comment.png" alt="comment" />
-          <img src="images/share.png" alt="share" />
+          <i class="far fa-heart"></i>
+          <i class="far fa-comment"></i>
+          <i class="far fa-paper-plane"></i>
         </div>
         <div class="right">
-          <img src="images/bookmark.png" />
+          <i class="far fa-bookmark"></i>
         </div>
       </div>
-      <h4 class="likes">10 likes</h4>
-      <h4 class="message">
+      <span class="likes">10 likes</span>
+      <span class="message">
         <b>abhilash ranvir</b> trying to clone insagram post
-      </h4>
-      <h4 class="comments">view all comments</h4>
-      <div class="addComments">
-        <div class="userImg">
+      </span>
+      <span class="comments">view all comments</span>
+      <div class="add-comments">
+        <div class="user-img">
           <img src="images/user.jpg" class="cover" />
         </div>
         <input type="text" class="text" placeholder="add a comment" />
       </div>
-      <h5 class="postTime">5 hours ago</h5>
+      <span class="post-time">5 hours ago</span>
     </div>
   </body>
 </html>
